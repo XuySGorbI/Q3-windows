@@ -112,6 +112,7 @@ class App(customtkinter.CTk):
             self.label_tab_20.configure(text="сдохла")
 
     def on_checbox(self):
+
         self.string_ch = ""
 
         if self.checbox_3_1.get() == 1:
