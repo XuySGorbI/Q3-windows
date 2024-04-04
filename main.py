@@ -45,7 +45,7 @@ class App(customtkinter.CTk):
         self.Enter.grid(row=1, column=0, padx=3, pady=3)
 
         self.button_tab_2 = customtkinter.CTkButton(self.tabview.tab("Tab 2"), text="проверка",
-                                                    command=self.on_checbox)
+                                                    command=self.on_button_pass)
         self.button_tab_2.grid(row=2, column=0, padx=3, pady=3)
 
         self.label_tab_20 = customtkinter.CTkLabel(self.tabview.tab("Tab 2"), text="")
